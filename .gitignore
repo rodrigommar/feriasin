@@ -1,0 +1,33 @@
+# Ignore arquivos e diretórios gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de build e diretórios
+/dist
+/build
+/venv
+
+# Ignore dependências de node.js
+/node_modules
+
+# Ignore dependências de Python
+__pycache__/
+*.py[cod]
+
+# Ignore arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Ignore arquivos temporários e backups
+*.tmp
+*.swp
+*.bak
+
+# Ignore chaves e credenciais sensíveis
+*.pem
+*.key
+*.crt
+*.env
